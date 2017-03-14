@@ -1,0 +1,1 @@
+default['keepalived']['clusters'] = []
