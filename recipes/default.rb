@@ -28,7 +28,7 @@ if !clusters.empty?
               authentication auth_type: 'PASS', auth_pass: password
               virtual_ipaddress addresses
               advert_int 1
-              dont_track_primary true,
+              dont_track_primary true
               notifies :restart, 'service[keepalived]', :delayed
             end
           end
