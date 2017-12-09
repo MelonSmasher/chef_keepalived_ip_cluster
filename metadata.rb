@@ -4,7 +4,7 @@ maintainer_email 'markea125@gmail.com'
 license 'MIT'
 description 'Configures a Keepalived cluster with shared virtual IP addresses.'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version '1.0.0'
+version '1.0.1'
 %w( centos debian redhat ubuntu ).each do |os|
   supports os
 end
